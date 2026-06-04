@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "attributeswap",
+  "version": "${version}",
+  "name": "Attribute Swap",
+  "description": "Client-side mod for swapping item attributes with GUI",
+  "authors": ["HiLine01"],
+  "contact": {
+    "homepage": "https://github.com/HiLine01/attribute-swap-mod",
+    "sources": "https://github.com/HiLine01/attribute-swap-mod"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.hiline.attributeswap.AttributeSwapMod"]
+  },
+  "mixins": ["attributeswap.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": "1.20.1",
+    "fabric-api": "*",
+    "cloth-config": ">=11.1",
+    "modmenu": "*"
+  }
+}
